@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+body{
+    font-color: red;
+}
+.container{
+    width: auto;
+    color: #bc5b31;
+}
+
+.row{
+    width:100% ;
+    float: left;
+}
+
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+
+.col-md-8{
+    width: 66.66%;
+    float: left;
+}
+
+.col-md-4{
+    width: 33.33%;
+    float: left;
+}
+
+/* internasnal code end */
+
+.bg{
+    margin-top: 0px;
+    background-color: #201e1f;
+    background-repeat: no-repeat;
+    height: 900px;
+   
+
+}
+.logo{
+    padding: 50px 0px 0px 90px;
+    float: left;
+}
+
+.menubar{
+    background-color: #bc5b31;
+    margin: 50px 50px 0px -320px;
+}
+
+ul{margin-left: 80px;}
+
+li{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 30px;
+    padding: 20px;
+    color: #000;
+}
+li:hover{
+    background-color: blueviolet;
+    transition: 2s;
+}
+.content{
+    margin: 200px 0px 0px 900px;
+    font-size: 60px;
+    position: relative;
+    float: left;
+}
+
+.bg_img{
+    position: absolute;
+    margin: 300px 0px 0px 200px;
+}
+.img2{
+    width: 100%;
+    height: 600px;
+    background-image: url(/img/place_your_image_here_dou_15.jpg);
+    
+}
+
+.content2{
+    background-color: #242424;
+    padding: 200px 90px;
+    font-size: 50px;
+}
+
